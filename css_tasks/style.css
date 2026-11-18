@@ -1,0 +1,12 @@
+.card{
+    width: 75%;
+    min-height: 290px;
+    background-color: #46C65E;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-image{
+    width: 50%;
+}
