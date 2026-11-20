@@ -1,11 +1,11 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: rgb(14,14,14);
+    background-color: #e4c09c;
 }
 
 .card{
-    background-color: beige;
+    background-color: white;
     width: 30%;
     height: 400px;
     border: 1px solid black;
@@ -14,6 +14,8 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px black;
 }
 
 .card-image{
@@ -35,4 +37,38 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.card-heading{
+    text-align: center;
+}
+
+.card-text{
+    line-height: 25px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.card-footer>button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(218, 218, 51);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.badge{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    transform: translate(50%,-50%);
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
 }
