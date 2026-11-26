@@ -1,0 +1,36 @@
+.grid-container{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item{
+    background-image: linear-gradient( 90.8deg,  rgba(27,53,68,1) 2.2%, rgba(110,180,135,1) 84% );
+    border: 1px solid black;
+    transition: transform 0.1ms ease-in;
+}
+
+.grid-item:hover{
+    transform: scale(1.02);
+}
+
+.grid-item:nth-child(1){
+    grid-column: 1/4;
+}
+
+.grid-item:nth-child(2){
+    grid-row: 2/4;
+}
+
+.grid-item:nth-child(3){
+    grid-column: 2/4;
+}
+
+.grid-item:nth-child(6){
+    grid-column: 1/4;
+}

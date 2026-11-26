@@ -1,0 +1,22 @@
+.grid-container{
+    background-color: yellow;
+    width: 75%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-item{
+    background-color: yellowgreen;
+    border: 1px solid white;
+}
+
+@media (max-width:400px){
+    
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}

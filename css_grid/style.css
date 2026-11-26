@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container{
+    width: 75%;
+    height: 400px;
+    background-color: #F6558D;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.grid-item{
+    border: 1px solid white;
+    background-color: #A5B2E2;
+}
